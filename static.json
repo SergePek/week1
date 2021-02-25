@@ -4,9 +4,9 @@
     "X-Author": "pgtu_evs_pekchiorkin",
       "Access-Control-Allow-Origin": "*"
     }
-  }
-   "routes": {
-    "/login/": "/login/login.html",
-    "/sample/": "/sample/sample.html"
+  }, 
+  
+  " routes " : {
+     " / ** " : " index.html "
   }
 }
