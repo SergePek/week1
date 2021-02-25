@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "/*":{
+    "X-Author": "pgtu_evs_pekchiorkin",
+      "Access-Control-Allow-Origin": "*"
+    } 
+  }
+}
