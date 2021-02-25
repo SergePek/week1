@@ -6,5 +6,9 @@
     }
   
   }
+  "routes": {
+    "/login/": "/login/login.html",
+    "/sample/": "/sample/sample.html"
+  }
 
 }
