@@ -12,8 +12,8 @@
   
   " routes " : {
      "/login/*" : "/login/index.html",
-     "/sample/**" : "/sample/index.html"
-    "/promise/*" : "/promise/index.html"
-    "/fetch/**" : "/fetch/index.html"
+     "/sample/*" : "/sample/index.html",
+    "/promise/*" : "/promise/index.html",
+    "/fetch/*" : "/fetch/index.html"
   }
 }
