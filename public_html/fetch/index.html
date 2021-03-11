@@ -17,7 +17,8 @@
                      
         fetch(document.querySelector('input').value)
            .then(response =>  {  
-           document.querySelector('input').value = response.text();    
+            response.text()
+           .then(x=>document.querySelector('input').value = x);      
            });             
     });   
    </script>
