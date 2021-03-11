@@ -1,1 +1,26 @@
 
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Страница HTML5</title><meta charset="utf-8">
+ </head>
+ <body>
+  <article>
+    <h1>HTML5</h1>
+    <div><input id="inp" type="text" ></div>
+    <div><button id="bt">Кнопка</button></div>
+  </article>
+   
+   <script>
+     
+     document.querySelector('button')
+     .addEventListener('click',event=> {
+                     
+        fetch(document.querySelector('input').value)
+           .then(response =>  {  
+           document.querySelector('input').value = response.text();    
+           });             
+    });   
+   </script>
+ </body>
+</html>
