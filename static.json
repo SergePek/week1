@@ -7,6 +7,14 @@
      "/sample/*":{
     "X-Author": "pgtu_evs_pekchiorkin",
       "Access-Control-Allow-Origin": "*" 
+    },
+    "/promise/*":{
+    "X-Author": "pgtu_evs_pekchiorkin",
+      "Access-Control-Allow-Origin": "*" 
+    },
+    "/fetch/*":{
+    "X-Author": "pgtu_evs_pekchiorkin",
+      "Access-Control-Allow-Origin": "*" 
     }
   }, 
   
